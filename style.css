@@ -422,12 +422,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 70%;
+                                width: 85%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 70%;
+                                left: 85%;
                             }
                         }
                     }
@@ -476,12 +476,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 95%;
+                                width: 90%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 95%;
+                                left: 90%;
                             }
                         }
                     }
@@ -494,12 +494,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 95%;
+                                width: 90%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 95%;
+                                left: 90%;
                             }
                         }
                     }
@@ -512,12 +512,12 @@ main {
                         .perce-line {
                             .perce {
                                 background-color: var(--main-bg-color);
-                                width: 80%;
+                                width: 90%;
                             }
 
                             .p {
                                 position: relative;
-                                left: 80%;
+                                left: 90%;
                             }
                         }
                     }

@@ -14,19 +14,14 @@ menuList.forEach((a) => {
         menuList.forEach((b) => {
             if (a == b) {
                 b.style.color = 'rgb(53, 51, 51)';
-                b.style.backgroundColor = 'yellow';
+                b.style.backgroundColor = 'cyan';
                 b.style.boxShadow = "0 0 20px var(--main-bg-color)";
             }
             else {
-                b.style.backgroundColor = 'rgb(53, 51, 51)';
+                b.style.backgroundColor = 'transparent';
                 b.style.color = 'white';
                 b.style.boxShadow = "0 0 0";
             }
         });
     });
 });
-
-
-// function downloadPDF() {
-//     print(home);   // print full website
-// }

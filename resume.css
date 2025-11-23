@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  text-align: justify;
+}
+
+.resume {
+  /* A4 width */
+  width: 210mm;
+  /* A4 height */
+  height: 297mm;
+  /* width: 800px;
+  height: 1000px; */
+  margin: 20px auto;
+  padding: 20px 0 20px 0;
+  border: 1px solid #ddd;
+  background: linear-gradient(to right, #2e8b57 25%, white 0%);
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.content {
+  padding: 0 20px 0 20px;
+
+  .section {
+    padding: 10px 0 10px 0;
+    display: flex;
+  }
+
+  .subHeading {
+    /* background-color: red; */
+    min-width: 200px;
+  }
+}
+
+.printBtn {
+  width: 100px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 7px;
+  background-color: green;
+  color: wheat;
+  font-weight: 900;
+  cursor: pointer;
+}

@@ -11,6 +11,10 @@ function sendEmail() {
         mobile: document.querySelector(".mobile").value,
         sms: document.querySelector(".sms").value,
     }
+    if (params.name == "" || params.email == "" || params.mobile == "" || params.sms == "") {
+        alert("Please fill all fields!!!");
+        return;
+    }
     const serviceID = "service_o243fyw";
     const templateID = "template_06srgch";
     emailjs.send(serviceID, templateID, params)
